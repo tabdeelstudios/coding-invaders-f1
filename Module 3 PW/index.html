@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <!-- External CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Outer Container Begins Here -->
+    <section id="outer-container">
+      <!-- Left Section Begins Here -->
+      <div id="left-section">
+        <img src="assets/logos/logo.png" alt="" />
+
+        <!-- Login Form Begins Here -->
+        <form method="POST">
+          <h1>Create Account</h1>
+          <div>
+            <label for="user-name">Name*</label><br />
+            <input type="text" id="user-name" name="user-name" />
+          </div>
+          <div>
+            <label for="user-email">Email Address*</label><br />
+            <input type="email" id="user-email" name="user-email" />
+          </div>
+          <div>
+            <label for="user-password">Password*</label><br />
+            <input type="password" id="user-password" name="user-password" />
+            <br />
+            <small>Passwords must be at least 6 characters.</small>
+          </div>
+          <input type="submit" value="Continue" />
+        </form>
+        <!-- Login Form Ends Here -->
+      </div>
+      <!-- Left Section Ends Here -->
+      <!-- Right Section Begins Here -->
+      <div id="right-section">
+        <img src="assets/images/book-cover.jpg" alt="" />
+      </div>
+      <!-- Right Section Ends Here -->
+    </section>
+    <!-- Outer Container Ends Here -->
+  </body>
+</html>

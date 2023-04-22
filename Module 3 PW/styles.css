@@ -1,0 +1,75 @@
+/* Outer Container*/
+#outer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left Section */
+#left-section{
+    width: 40%;
+    text-align: center;
+}
+
+/* Right Section */
+#right-section{
+    width: 60%;
+}
+
+/* Logo style */
+#left-section img {
+    width: 20%;
+    margin-top: 50px;
+}
+
+/* Book cover style */
+#right-section img{
+    width: 100%;
+}
+
+/* Signup Form style */
+form{
+    margin-top: 300px;
+    color: #523b29;
+}
+
+label, input, small{
+    display: block;
+    text-align: left;
+    margin-left: 150px;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 300px;
+    background-color: #a99b9117;
+    border: none;
+    height: 40px;
+}
+
+form>h1{
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 30px;
+}
+
+input[type="password"]{
+    margin-bottom: 0px;
+}
+
+small{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+input[type="submit"]{
+    background-color: #523b29;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* Other style */
+body{
+    margin: 0;
+}
