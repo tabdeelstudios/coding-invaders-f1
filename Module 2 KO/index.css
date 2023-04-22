@@ -1,0 +1,42 @@
+/* CSS -> Cascading Style Sheets */
+
+/*
+selector {
+    property:value;
+}
+*/
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    padding: 250px;
+    /* background-image: url('assets/images/mic.jpg'); */
+    background-image: url('assets/icons/favicon-32x32.png');
+    /* background-repeat: repeat-y; */
+}
+
+h1{
+    font-size: 100px;
+}
+
+button{
+    padding: 20px 40px;
+    font-size: 32px;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+button:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
