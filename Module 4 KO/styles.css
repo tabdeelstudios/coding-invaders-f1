@@ -1,0 +1,63 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img{width: 50%;}
+
+#whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    p{
+        color: red;
+        width: 100%;
+        font-size: 1.4em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    p{
+        color: blue;
+        width: 100%;
+        font-size: 1.6em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    p{
+        color: green;
+        width: 45%;
+        font-size: 1.8em;
+    }
+    #whatsapp{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    p{
+        color: blueviolet;
+        width: 30%;
+        font-size: 1.8em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    p{
+        color: purple;
+        width: 22%;
+        font-size: 2em;
+    }
+}
+
