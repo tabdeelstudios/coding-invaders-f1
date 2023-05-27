@@ -1,0 +1,181 @@
+Q1. Write a function sumArray that takes an array of numbers as input and returns the sum of all the numbers.
+
+Sample Input: [1, 2, 3, 4, 5]
+Sample Output: 15
+
+//using the reduce method
+
+let arrayInput = [1,2,3,4,5]
+
+function reduce(array){
+    let sum = array.reduce((accumulator,currentValue) =>
+    accumulator+currentValue,0);
+    return sum;
+}
+
+//call to function to calculate sum of all elements in array
+console.log(reduce(arrayInput));
+
+function sumArray(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+      sum += arr[i];
+    }
+    return sum;
+  }
+  const numbers = [1, 2, 3, 4, 5];
+  console.log(sumArray(numbers));
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+
+Q2. Write a function countOccurrences that takes an array of words as input and returns an object with each unique word as a key and its count as the value.
+
+Sample Input: ["apple", "banana", "apple", "orange", "banana", "apple"]
+Sample Output: { "apple": 3, "banana": 2, "orange": 1 }
+
+
+function countOccurrences(words) {
+    let occurrences = {};
+    for (let i = 0; i < words.length; i++) {
+      let word = words[i];
+      if (occurrences[word]) {
+        occurrences[word] += 1;
+      } else {
+        occurrences[word] = 1;
+      }
+    }
+    return occurrences;
+  }
+  let words = ["apple", "banana", "apple", "orange", "banana", "apple"];
+  console.log(countOccurrences(words));
+---------------------------------------------
+  const countOccurrences = (arr) =>
+  arr.reduce((acc, curr) => {
+    acc[curr] = (acc[curr] || 0) + 1;
+    return acc;
+  }, {});
+console.log(countOccurrences(["apple", "banana", "apple", "orange", "banana", "apple"]));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+
+Q3. Write a function isPalindrome that takes a string as input and returns true if it is a palindrome, and false otherwise.
+
+Sample Input: "racecar"
+Sample Output: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+
+Q4. Write a function findLongestWord that takes an array of words as input and returns the longest word.
+
+Sample Input: ["apple", "banana", "orange", "grapefruit"]
+Sample Output: "grapefruit"
+
+let inputArray = ["apple","banana","orange","grapefruit"]
+
+function longest(input){
+    let longestWord = " ";
+    
+    for(const long of input){ 
+        if(long.length >longestWord.length){
+            longestWord = long;    
+        }
+    }
+    return longestWord;
+}
+
+console.log(longest(inputArray));
+-----------------------------
+function findLongestWord(words) {
+    let longestWord = '';
+    for (let i = 0; i < words.length; i++) {
+      let word = words[i];
+  
+      if (word.length > longestWord.length) {
+        longestWord = word;
+      }
+    }
+    return longestWord;
+  }
+  let words = ["apple", "banana", "orange", "grapefruit"];
+  console.log(findLongestWord(words));
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+
+Q5. Write a function getAverage that takes an array of numbers as input and returns the average of all the numbers.
+
+Sample Input: [10, 15, 20, 25, 30]
+Sample Output: 20
+
+function findAvg(){
+  let value = [10,15,20,25,30]
+  sum = 0
+  for(let i of value){
+      sum +=i
+      console.log(sum)
+  }
+  avg = sum/value.length
+  console.log(avg)
+}
+findAvg()
+----------------------------
+function average(arr){
+    let sum = 0
+    for(i=0;i<arr.length;i++){
+      sum = arr[i] + sum
+    }
+    let average = sum/(arr.length)
+    return average
+}
+
+let output = average([10,15,20,25,30])
+console.log(output)
