@@ -1,0 +1,53 @@
+/* Header style */
+
+header{
+    text-align: center;
+}
+
+header div{
+    border-top: 5px solid rgb(63, 17, 17);
+    width: 20%;
+    margin: 0 auto;
+}
+
+/* Buttons style */
+#allButtons{
+    text-align: center;
+    margin: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(244, 244, 211);
+    border: 3px solid rgb(63, 17, 17);
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    border-color: brown;
+}
+
+/* Products style */
+#allProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.product img{
+    width: 70%;
+    margin-right: 15px;
+}
+
+.productOuter{
+    display: flex;
+}
