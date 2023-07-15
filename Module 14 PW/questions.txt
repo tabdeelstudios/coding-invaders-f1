@@ -1,0 +1,87 @@
+
+
+
+
+Q.1. Create 10 buttons with ids in the format btn-#<button number> i.e. the first button will have an id btn-#1, button 2 will have if btn-#2 and so on. You are trying to show the id of the button on which the mouse has hovered upon. Create a working example which shows the id of the button in a span in the format “You have hovered over <button id>”.  - After multiple add event listener and event objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q.2. Create a voting eligibility check system. (Remember our initial module?). Create a form which takes in your Name and Year of Birth. On submitting the form, give a message in the form of an alert stating whether you are eligible or not. (You might need to research about Dates in Javascript!) - After form events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q.3. Let’s try to create a dynamic emailing template. Create a form which has two input fields of the type text and description HTML element. The email template should look like -:
+
+The first input field should be To,
+The textarea should be Email Body,
+The second input field should be From.
+
+Hello, <whatever you have typed in the input field>! I am emailing you because <whatever you have typed in the textarea input field>. I am hoping you would revert back positively.
+
+Regards,
+<whatever you have typed in the second input field>
+
+Print the final message on submit inside a paragraph tag. Make sure the formatting is intact! - After form events
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q.4. Create a tip calculator. You have a form which takes in the total bill amount in an input field and another input field should take in the %age of tip to be paid. There is another input field which takes in the number of people within whom the total bill will be distributed.
+
+Calculate the total bill to be paid.
+Calculate the individual bill to be paid by each person.
+Calculate the individual tip.
+
+Make sure there are client side validations as follows -:
+i. The %age of tip should not exceed 10%.
+ii. If the total bill amount is less than 500, don’t split the bill.
+iii. Number of people can never be less than 2. After client side validation
+
+
+viktor.vlasenko.169@gmail.com Link to the collection where the final code and output is present for all 4 questions.
+
+https://codepen.io/collection/gYmQYp
