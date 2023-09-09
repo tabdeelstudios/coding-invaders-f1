@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(211, 170, 211);
+}
+
+img{
+    width: 100px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin: 10px;
+}

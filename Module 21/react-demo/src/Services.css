@@ -1,0 +1,12 @@
+#services{
+    display: flex;
+    justify-content: space-around;
+}
+
+#services img{
+    width: 100px;
+}
+
+.service{
+    text-align: center;
+}
