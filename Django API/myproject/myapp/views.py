@@ -12,7 +12,7 @@ from rest_framework.decorators import api_view
 from .models import User
 from .serializers import UserSerializer
 
-client = pymongo.MongoClient("mongodb+srv://testuser100:testuser%40100@taskmanager.nap5hgc.mongodb.net/?retryWrites=true&w=majority&appName=taskManager")
+client = pymongo.MongoClient("")
 dbname = client['notes']
 collection = dbname['user_notes']
 
