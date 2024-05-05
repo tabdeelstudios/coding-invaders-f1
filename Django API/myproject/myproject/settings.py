@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'all-users',
         'CLIENT': {
-           'host': 'mongodb+srv://testuser100:testuser%40100@taskmanager.nap5hgc.mongodb.net/?retryWrites=true&w=majority&appName=taskManager',
+           'host': '',
         }
     }
 }
